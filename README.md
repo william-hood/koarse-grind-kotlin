@@ -1,31 +1,34 @@
-# Koarse Grind
-## Test Framework
+# Koarse Grind Test Framework
+
+***(Java version coming soon.)***
+<hr>
+<img align="left" src="examples/koarse_grind_logo.gif">
 
 This release uses the updated "Boolog" defaulting to the new "light" theme. Koarse Grind has been
 transitioned to a stand-alone project using Maven for both build and dependency management. Example
 programs may be found in the `src/test` folder.
 
 ### To use Koarse Grind as a test framework, add the dependency to your `pom.xml` file as specified in the Maven Central Repository...
-https://central.sonatype.com/artifact/io.github.william-hood/boolog-kotlin
+https://central.sonatype.com/artifact/io.github.william-hood/koarse-grind-kotlin
 
 See the example code in the `src/test` folder for a main file and test setup.
+
+***The [Descriptions](https://github.com/william-hood/descriptions-kotlin) project is recommended for use with Koarse Grind.***
 
 ---
 **WINDOWS USERS MAY NEED TO FOLLOW THESE STEPS TO PROPERLY DISPLAY EMOJIS IN THE CONSOLE**
 
 https://akr.am/blog/posts/using-utf-8-in-the-windows-terminal
 
-***The [Descriptions]() project is recommended for use with Koarse Grind.***
-
 ---
 
 **Release 3.1**
 
-Numerous employers have asked me to create a test automation
+Over the course of my career, numerous employers have asked me to create a test automation
 framework from scratch. After writing several similar frameworks for various
-clients I decided to create a "reference implementation" ready for use as-is,
-and ready to port to a client's tech-stack of choice. The original "Coarse Grind"
-was written in Java, but later ported to C#. The Kotlin rewrite is primarily
+clients, usually based on JUnit or NUnit, I decided to create a "reference implementation" ready for use as-is,
+and ready to port to a client's tech-stack of choice if they preferred. The original "Coarse Grind"
+was written in Java, but later ported to C#. The current Kotlin version is primarily
 based on the C# version, and makes use of Boolog as its integrated log system.
 Here's what sets it apart from other test frameworks:
 - Not for Unit Tests – As the name suggests it’s intended for larger-grained tests one might do against a program or service that’s already installed and configured; though it can certainly do unit tests if that’s what you want.
