@@ -8,8 +8,8 @@
     <artifactId>koarse-grind-kotlin</artifactId>
     <version>3.1.0</version>
 
-    <name>ChangeScan</name>
-    <description>A program that can tell you what has changed on a computer's file system. It is the spiritual successor of a JavaScript program I created many years ago for a client to test their installer. Scan all or part of the filesystem; perform your installation (or otherwise cause changes); scan it again and it tells you what changed.</description>
+    <name>Koarse Grind</name>
+    <description>A Test Framework, targeted at larger-than-unit tests against already installed and configured software products. It features direct-to-HTML logging and automatic organization of test artifacts.</description>
     <url>https://github.com/william-hood/koarse-grind-kotlin</url>
 
     <properties>
@@ -182,6 +182,11 @@
         <dependency>
             <groupId>io.github.william-hood</groupId>
             <artifactId>boolog-kotlin</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.william-hood</groupId>
+            <artifactId>descriptions-kotlin</artifactId>
             <version>3.1.0</version>
         </dependency>
     </dependencies>
