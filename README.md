@@ -1,14 +1,14 @@
-# Koarse Grind Test Framework
+# Koarse Grind Test Framework for Kotlin
 
-***(Java version coming soon.)***
+***Java Version [here](https://github.com/william-hood/koarse-grind-java).***
 <hr>
 <img align="left" src="examples/koarse_grind_logo.gif">
 
-This release uses the updated "Boolog" defaulting to the new "light" theme. Koarse Grind has been
+This release uses the updated "Boolog" logging system defaulting to the new "light" theme. Koarse Grind has been
 transitioned to a stand-alone project using Maven for both build and dependency management. Example
 programs may be found in the `src/test` folder.
 
-### To use Koarse Grind as a test framework, add the dependency to your `pom.xml` file as specified in the Maven Central Repository...
+### To use Koarse Grind as a test framework, add the dependency to your Kotlin project's `pom.xml` file as specified in the Maven Central Repository...
 https://central.sonatype.com/artifact/io.github.william-hood/koarse-grind-kotlin
 
 See the example code in the `src/test` folder for a main file and test setup.
