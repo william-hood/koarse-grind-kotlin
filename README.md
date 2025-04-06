@@ -13,6 +13,8 @@ https://central.sonatype.com/artifact/io.github.william-hood/koarse-grind-kotlin
 
 See the example code in the `src/test` folder for a main file and test setup.
 
+*If you run the example code on your system, expect the actual output folder to appear in `(User Home)/Documents/Test Results`.*
+
 ***The [Descriptions](https://github.com/william-hood/descriptions-kotlin) project is recommended for use with Koarse Grind.***
 
 ---
